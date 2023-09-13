@@ -1,0 +1,35 @@
+\documentclass[10pt,a4paper,oneside]{article}
+
+\usepackage{common/layout/layout}
+
+\title{Basic LaTeX Template}
+\author{The author}
+
+\begin{document}
+
+\maketitle
+\section{Purpose}
+This document's purpose is to provide the basic setup of a LaTex document including citation. It should be easy to use for your next thesis, report or any other document type you might be encountering at your university.
+
+Ideally, the predefined structure is cloned and reused within your own version controlled repository. Since LaTex is a descriptive language, it is highly recommended to use in version controlled environment.
+
+\section{Prerequisites}
+In the following table you will find the recommended tools to use. Please install them according to latest guidelines on your computer.
+
+\begin{tabular}{|l|l|}
+\hline 
+Tool & Description \\ 
+\hline 
+\hline
+MiKTeX & Implementation of LaTeX \\ 
+\hline 
+Texmaker & Editor for LaTeX \\ 
+\hline 
+BibDesk \cite{url:BibDesk} & Bibliography manager \\ 
+\hline 
+\end{tabular} 
+
+%Literaturverzeichnis
+\input{src/sources}
+
+\end{document}
